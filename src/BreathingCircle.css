@@ -1,11 +1,33 @@
+:root {
+  --circle-size: 80vmin;
+  --breath-circle-size: 70%;
+  --breath-text-size: 8vmin;
+}
+
+@media screen and (max-width: 768px) {
+  :root {
+    --circle-size: 60vmin;
+    --breath-circle-size: 60%;
+    --breath-text-size: 10vmin;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  :root {
+    --circle-size: 50vmin;
+    --breath-circle-size: 50%;
+    --breath-text-size: 12vmin;
+  }
+}
+
 .container-fluid {
-  height: var(--vh);
+  height: 100vh;
 }
 
 .circle {
   position: relative;
-  width: 100%;
-  padding-bottom: 100%;
+  width: var(--circle-size);
+  height: var(--circle-size);
   border-radius: 50%;
   background-color: #ffc0cb;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -16,8 +38,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 0;
-  height: 0;
+  width: var(--breath-circle-size);
+  height: var(--breath-circle-size);
   border-radius: 50%;
   background-color: #ff6347;
   opacity: 0.5;
@@ -39,7 +61,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 4vw;
+  font-size: var(--breath-text-size);
   font-weight: bold;
   color: #fff;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
