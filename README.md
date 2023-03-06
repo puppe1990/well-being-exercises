@@ -4,6 +4,9 @@ Sure, here's an example README file for this project:
 
 This project is a simple web app that helps you practice mindful breathing and increase your Positive Intelligence (PQ) score. It uses an animated circle to guide your breathing and display the "Inhale" and "Exhale" phases.
 
+
+![Screenshot from 2023-03-05 23-24-25](https://user-images.githubusercontent.com/8432835/223005252-15e99c1e-59ff-4763-b565-2c1c8221c095.png)
+
 ## Getting Started
 
 To get started with this project, you'll need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your computer.
