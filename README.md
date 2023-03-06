@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+Sure, here's an example README file for this project:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PQ Brain Breathing Exercise
 
-## Available Scripts
+This project is a simple web app that helps you practice mindful breathing and increase your Positive Intelligence (PQ) score. It uses an animated circle to guide your breathing and display the "Inhale" and "Exhale" phases.
 
-In the project directory, you can run:
+## Getting Started
 
-### `npm start`
+To get started with this project, you'll need to have [Node.js](https://nodejs.org/) and [npm](https://www.npmjs.com/) installed on your computer.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Clone this repository:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```
+git clone https://github.com/puppe1990/well-being-exercises.git
+```
 
-### `npm test`
+2. Install the dependencies:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+cd pq-brain-breathing
+npm install
+```
 
-### `npm run build`
+3. Start the development server:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Open your web browser and go to `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+5. Practice mindful breathing by following the animation and focusing on your breath.
 
-### `npm run eject`
+## About PQ Brain
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+[PQ Brain](https://www.pqbrain.com/) is a program developed by Shirzad Chamine that helps you increase your Positive Intelligence (PQ) score and achieve peak performance and happiness. It combines mindfulness, cognitive-behavioral techniques, and positive psychology to help you rewire your brain and overcome your internal saboteurs.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## About Mindful Breathing
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Mindful breathing is a simple and effective mindfulness practice that helps you focus on your breath and calm your mind. It involves taking slow, deep breaths and paying attention to the sensations of your breath as it enters and leaves your body.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](LICENSE).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Acknowledgments
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project was inspired by Shirzad Chamine's [Positive Intelligence](https://www.positiveintelligence.com/) program and the [Wim Hof Method](https://www.wimhofmethod.com/) of breathing. The animation was adapted from [freeCodeCamp](https://www.freecodecamp.org/learn/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html).
